@@ -36,6 +36,10 @@
     <PackageReference Include="IdentityServer4" />
     <PackageReference Include="IdentityServer4.EntityFramework.Storage" />
     
-    <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="MinVer" Version="4.2.0" />
   </ItemGroup>
 </Project>
